@@ -30,4 +30,4 @@ EXPOSE 8080
 EXPOSE 8009
 
 USER tomcat
-CMD ["exec catalina.sh run"]
+CMD ["exec bin/catalina.sh run"]
